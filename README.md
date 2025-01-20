@@ -13,3 +13,6 @@ The website "Custom Cursor" (https://customcrsr.netlify.app/) allows users to cu
 
 **Animation:
 The website **Animati** (https://animati.netlify.app/) is a platform designed to showcase a variety of animations created with JavaScript and other web technologies. It focuses on providing interactive and engaging animations that can be easily integrated into web projects. The site offers users a range of examples and demos, allowing them to see the potential of animations for enhancing user experience and website design. Animati is a great resource for developers and designers looking for inspiration or code snippets for incorporating animations into their own projects.
+
+**Adding Story
+AddStory (https://addstory.netlify.app/) is an online platform that allows users to create and share interactive stories. It provides a simple interface for writing, editing, and publishing narratives, with options to incorporate multimedia elements like images and text. The platform aims to encourage creativity by making it easy for users to craft and share their stories with others.
