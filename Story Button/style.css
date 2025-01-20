@@ -1,0 +1,72 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: 450px;
+    width: 275px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    border: 4px solid #111;
+    position: relative;
+}
+
+#storian{
+    width: 100%;
+    height: 120px;
+    border-bottom: 1px solid #555;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    /* scrollbar-width: thin; */
+    padding: 15px;
+    /* margin-right: 15px; */
+}
+
+#storian::-webkit-scrollbar{
+    display: none;
+}
+
+.story{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background: linear-gradient(rgb(255, 174, 0), orange, rgb(255, 32, 69), purple, blue);
+    display: inline-block;
+    margin-right: 5px;
+    padding: 2.4px;
+}
+
+.story img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-position: top;
+    object-fit: cover;
+}
+
+.fullScreen{
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    display: none;
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+}
